@@ -2,3 +2,474 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+header{
+    margin-top: 20px;
+}
+#logo{
+    width: 100px;
+    padding-top: 7px;
+    padding-left: 50px;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header-nav-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+    background-color: #fcfafafb;
+}
+.header-nav-item img{
+    width: 50px;
+}
+.nav-item-address,.nav-item-email,.nav-item-phone{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 10px;
+}
+.nav-item-address-desc span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.nav-item-email-desc span,.nav-item-phone-desc span{
+    display: block;
+    font-size: 15px;
+    margin-top: 16px;
+}
+.header-nav-menu{
+    background-color: rgb(16, 241, 91);
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    height: 40px;
+}
+.nav-menu ul li{
+    display: inline;
+    padding-left: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.nav-menu ul li a:hover{
+    color: rgb(235, 23, 23);
+}
+.nav-appointment{
+    width: 200px;
+    height: 30px;
+    background-color: coral;
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.nav-appointment a{
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.content-top-nav-item{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content-top-nav-item-doctors{
+    height: 280px;
+}
+.content-top-nav-item-doctors,.content-top-nav-item-care,.content-top-nav-item-checkup,.content-top-nav-item-service{
+    text-align: center  ;
+}
+.content-top-nav-item-doctors,.content-top-nav-item-checkup{
+    background-color: rgb(88, 159, 240);
+}
+.content-top-nav-item-care,.content-top-nav-item-service{
+    background-color: rgb(50, 101, 240);
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+.content-top-nav-item h3{
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.content-top-nav-item p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.content-intro-item{
+    display: grid;
+    grid-template-columns: 500px 580px;
+    grid-gap: 50px;
+}
+.content-intro-item-img img{
+    width: 500px;
+    height: 775px;
+}
+.content-intro-item-desc-heading{
+    margin-top: 50px;
+}
+.content-intro-item-desc-heading h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.content-intro-item-desc-center{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.center-service{
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    grid-gap: 20px;
+    padding-top: 50px;
+}
+.center-service p{
+    font-size: 14px;
+}
+.content-banner img{
+    width: 100%;
+    height: 200px;
+}
+.content-center-departments{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content-center-departments h2{
+    padding: 30px 0px 30px 0px;
+}
+.content-center-nav-menu {
+    text-align: center;
+    height: 111px;
+    width: 1250px;
+    background-color: rgb(241, 241, 233);
+}
+.content-center-nav-menu ul li{
+    display: inline;
+    padding: 50px 38px;
+    padding-bottom: 43px;
+}
+.content-center-nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 111px;
+    font-size: 30px;
+}
+.content-center-nav-menu ul li:hover{
+    background-color: rgb(91, 236, 157);
+}
+.content-center-intro-dantal{
+    width: 1250px;
+    height: 600px;
+    background-color: rgb(248, 246, 244);
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-gap: 50px;
+}
+.dantal-item-desc{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.dantal-item-desc h2{
+    padding-bottom: 50px;
+}
+.content-center-intro-dantal-item-img img{
+    width: 350px;
+    height: 525px;
+    padding-top: 50px;
+}
+.dantal-item-nav{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 50px;
+    margin-left: 50px;
+}
+.dantal-item-nav-care,.dantal-item-nav-lab,.dantal-item-nav-check,.dantal-item-nav-rate{
+    display: grid;
+    grid-template-columns: 56px 1fr;
+}
+.dantal-item-nav-care-text h3,.dantal-item-nav-check h3,.dantal-item-nav-lab-text h3,.dantal-item-nav-rate-text h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dantal-item-nav-care-text p,.dantal-item-nav-check p,.dantal-item-nav-rate-text p,.dantal-item-nav-lab-text p{
+    font-size: 14px;
+}
+.dantal-item-nav-care-text,.dantal-item-nav-check{
+    margin-bottom: 50px;
+}
+.dantal-item-nav-rate-text ,.dantal-item-nav-lab-text{
+    width: 330px;
+}
+.content-intro-Qualified{
+    text-align: center;
+    margin-top: 50px;
+}
+.content-intro-Qualified h2{
+    margin: 20px 0px;
+}
+.content-intro-Qualified p{
+    width: 1000px;
+    margin: 0px 150px;
+    margin-bottom: 50px;
+}
+.content-intro-nav-doctors-top{
+    display: grid;
+    grid-template-columns: 307px 307px 307px 307px;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content-intro-nav-doctors-top img {
+    width: 275px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.content-intro-nav-doctors-top h3{
+    padding: 10px 0px;
+}
+.content-intro-nav-doctors-top span{
+    display: block;
+   padding-bottom: 20px;
+}
+
+.content-doctors-advisory{
+    display: grid;
+    grid-template-columns: 615px 615px;
+    margin-bottom: 50px;
+    height: 640px;
+}
+.content-doctors-advisory-consultation{
+    background-color: rgb(87, 126, 253);
+}
+.octors-advisory-consultation-validate{
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid-gap: 20px;
+    padding: 0px 5%;
+}
+.doctors-advisory-consultation-heading{
+    margin-left: 30px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.doctors-advisory-consultation-heading h2{
+    padding: 10px 0px;
+}
+.doctors-advisory-consultation-heading p{
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.octors-advisory-consultation-validate input,.octors-advisory-consultation-validate select{
+    width: 264px;
+    height: 58px;
+    background-color: rgb(87, 126, 253);
+    border: none;
+    color: #ffffff;
+    margin-top: 40px;
+    outline: none;
+}
+#button{
+    width: 265px;
+    height: 58px;
+    background-color: tomato;
+    border-radius: 30px;
+    outline: none;
+}
+.content-doctors-advisory-information{
+    margin: 10% 10%;
+    display: grid;
+    grid-template-columns: 270px 270px;
+}
+.advisory-information-item-one,.advisory-information-item-two{
+    background-color: rgba(241, 241, 241, 0.808);
+    width: 244px;
+    height: 231px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.advisory-information-item-one span,.advisory-information-item-two span{
+    display: block;
+    color: dodgerblue;
+    padding-top: 60px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.advisory-information-item-one p,.advisory-information-item-two p{
+    font-size: 15px;
+}
+.recent-blog{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.recent-blog h2{
+    padding: 20px 0px;
+}
+.recent-blog p{
+    width: 1000px;
+    margin: 0px 150px;
+}
+.content-blog {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-gap: 30px;
+    margin: 0px 42px;
+    margin-bottom: 50px;
+}
+.blog-nav{
+    width: 410px;
+    height: 535px;
+    background-color: rgb(255, 255, 255);
+    width: 379px;
+}
+.content-blog img{
+    width: 379px;
+    height: 275px;
+}
+.blog-nav-desc a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+    width: 350px;
+    text-align: center;
+}
+.blog-nav-desc p{
+    font-size: 14px;
+    padding-top: 30px;
+    width: 350px;
+    text-align: center;
+    margin:0px 20px;
+}
+a.btn {
+    width: 100px;
+    height: 0px;
+    background-color: rgb(69, 69, 233);
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    outline: none;
+    margin-left: 135px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+footer{
+    background-color: rgb(19, 15, 15);
+    color: #ffffff;
+    height: 790px;
+}
+.footer-heading{
+    padding-top: 85px;
+    display: grid;
+    grid-template-columns: 307px 307px 307px 307px;
+    grid-gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.one-logo,.two-links h2,.three-blog h2{
+    padding-bottom: 40px;
+}
+.one-text,.two-nav-text,.three-blog-item,.four-hours{
+    padding-bottom: 20px;
+}
+.one-text p{
+    font-size: 14px;
+    color: aliceblue;
+}
+.one-questions{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 40px 240px;
+}
+.one-questions img{
+    display: block;
+    padding-bottom: 45px;
+}
+.one-questions-text,.one-questions-text a,.one-questions-text span{
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+#email{
+    margin-top: 25px;
+}
+.one-item a{
+    padding-right: 20px;
+}
+.two-nav-text a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+.tow-services{
+    margin-bottom: 40px;
+}
+.two-nav-ser-text a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+.blog-item-img img{
+    width: 78px;
+    height: 80px;
+}
+.three-blog-item{
+    display: grid;
+    grid-template-columns: 78px 175px;
+    grid-gap: 20px;
+}
+.blog-item-text a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+.four-hours span{
+    display: block;
+    padding-bottom: 30px;
+}
+#gmail{
+    width: 255px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(63, 63, 62);
+    margin-bottom: 10px;
+    color: #ffffff;
+    outline: none;
+}
+#submit{
+    width: 265px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(50, 138, 221);
+    color: #ffffff;
+    outline: none;
+}
+.footer-bottom{
+    padding-top: 50px;
+    text-align: center;
+}
