@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+header{
+    margin-top: 20px;
+}
+#logo{
+    width: 100px;
+    padding-top: 7px;
+    padding-left: 50px;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header-nav-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+    background-color: #fcfafafb;
+}
+.header-nav-item img{
+    width: 50px;
+}
+.nav-item-address,.nav-item-email,.nav-item-phone{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 10px;
+}
+.nav-item-address-desc span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.nav-item-email-desc span,.nav-item-phone-desc span{
+    display: block;
+    font-size: 15px;
+    margin-top: 16px;
+}
+.header-nav-menu{
+    background-color: rgb(16, 241, 91);
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    height: 40px;
+}
+.nav-menu ul li{
+    display: inline;
+    padding-left: 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.nav-menu ul li a:hover{
+    color: rgb(235, 23, 23);
+}
+.nav-appointment{
+    width: 200px;
+    height: 30px;
+    background-color: coral;
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.nav-appointment a{
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.content{
+    margin: 5% 0px ;
+}
+.content-heading{
+    display: grid;
+    grid-template-columns: 600px 505px;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
+iframe{
+    width: 600px;
+    height: 590px;
+}
+.heading-form input{
+    display: block;
+    width: 495px;
+    height: 52px;
+    padding-left: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+textarea{
+    padding-left: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    width: 495px;
+    height: 200px;
+    padding-top: 30px;
+}
+#submit{
+    border-radius: 20px;
+}
+.content-h2 h2{
+    margin: 40px 0px;
+}
+.content-contact-nav{
+    display: grid;
+    grid-template-columns: 277px 277px 277px 277px;
+    grid-gap: 50px;
+}
+.contact-nav-address,.contact-nav-phone,.contact-nav-email,.contact-nav-website{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(235, 241, 245);
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.contact-nav-address p,.contact-nav-phone p,.contact-nav-email p,.contact-nav-website p{
+    width: 220px;
+}
+footer{
+    background-color: rgb(19, 15, 15);
+    color: #ffffff;
+    height: 790px;
+}
+.footer-heading{
+    padding-top: 85px;
+    display: grid;
+    grid-template-columns: 307px 307px 307px 307px;
+    grid-gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.one-logo,.two-links h2,.three-blog h2{
+    padding-bottom: 40px;
+}
+.one-text,.two-nav-text,.three-blog-item,.four-hours{
+    padding-bottom: 20px;
+}
+.one-text p{
+    font-size: 14px;
+    color: aliceblue;
+}
+.one-questions{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 40px 240px;
+}
+.one-questions img{
+    display: block;
+    padding-bottom: 45px;
+}
+.one-questions-text,.one-questions-text a,.one-questions-text span{
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+#email{
+    margin-top: 25px;
+}
+.one-item a{
+    padding-right: 20px;
+}
+.two-nav-text a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+.tow-services{
+    margin-bottom: 40px;
+}
+.two-nav-ser-text a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+.blog-item-img img{
+    width: 78px;
+    height: 80px;
+}
+.three-blog-item{
+    display: grid;
+    grid-template-columns: 78px 175px;
+    grid-gap: 20px;
+}
+.blog-item-text a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+.four-hours span{
+    display: block;
+    padding-bottom: 30px;
+}
+#gmail{
+    width: 255px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(63, 63, 62);
+    margin-bottom: 10px;
+    color: #ffffff;
+    outline: none;
+}
+#submit{
+    width: 265px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(50, 138, 221);
+    color: #ffffff;
+    outline: none;
+}
+.footer-bottom{
+    padding-top: 50px;
+    text-align: center;
+}
